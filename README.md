@@ -35,6 +35,10 @@ This package implements a reinforcement learning environment for simulating and 
 ## Usage
 
 ### Training a model
+To run the pretrained model `car_rl_model`, run the following:
+```bash
+python main.py --load_model car_rl_model --visualize_episodes 10
+```
 
 To train a new RL model, run the `main.py` script with desired parameters:
 
